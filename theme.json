@@ -221,7 +221,7 @@
         "type": "typography"
       }
     },
-    "Alerts": {
+    "alerts": {
       "success": {
         "value": "#03986C",
         "type": "color"
