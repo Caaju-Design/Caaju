@@ -210,7 +210,7 @@
         "type": "spacing"
       }
     },
-    "inputTypografy": {
+    "inputTypography": {
       "placeholder": {
         "value": {
           "fontFamily": "Sora",
@@ -237,6 +237,48 @@
       "danger": {
         "value": "#E61542",
         "type": "color"
+      }
+    },
+    "fontSize": {
+      "min": {
+        "value": "11",
+        "type": "fontSizes"
+      },
+      "xxs": {
+        "value": "12",
+        "type": "fontSizes"
+      },
+      "xs": {
+        "value": "14",
+        "type": "fontSizes"
+      },
+      "sm": {
+        "value": "16",
+        "type": "fontSizes"
+      },
+      "md": {
+        "value": "18",
+        "type": "fontSizes"
+      },
+      "lg": {
+        "value": "20",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "24",
+        "type": "fontSizes"
+      },
+      "xxl": {
+        "value": "32",
+        "type": "fontSizes"
+      },
+      "xxxl": {
+        "value": "64",
+        "type": "fontSizes"
+      },
+      "max": {
+        "value": "128",
+        "type": "fontSizes"
       }
     }
   },
