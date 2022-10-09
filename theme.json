@@ -211,6 +211,14 @@
       }
     },
     "inputTypography": {
+      "label": {
+        "value": {
+          "fontFamily": "Sora",
+          "fontWeight": "Regular",
+          "fontSize": "16"
+        },
+        "type": "typography"
+      },
       "placeholder": {
         "value": {
           "fontFamily": "Sora",
@@ -279,6 +287,24 @@
       "max": {
         "value": "128",
         "type": "fontSizes"
+      }
+    },
+    "BorderWidth": {
+      "null": {
+        "value": "0",
+        "type": "borderWidth"
+      },
+      "sm": {
+        "value": "1",
+        "type": "borderWidth"
+      },
+      "md": {
+        "value": "2",
+        "type": "borderWidth"
+      },
+      "lg": {
+        "value": "3",
+        "type": "borderWidth"
       }
     }
   },
