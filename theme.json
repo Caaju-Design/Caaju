@@ -39,6 +39,14 @@
       }
     },
     "grayScale": {
+      "50": {
+        "value": "#919191",
+        "type": "color"
+      },
+      "90": {
+        "value": "#dfdfdf",
+        "type": "color"
+      },
       "100": {
         "value": "#fff",
         "type": "color"
