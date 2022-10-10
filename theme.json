@@ -240,6 +240,22 @@
           "fontSize": "11"
         },
         "type": "typography"
+      },
+      "alert": {
+        "value": {
+          "fontFamily": "Sora",
+          "fontWeight": "Regular",
+          "fontSize": "12"
+        },
+        "type": "typography"
+      },
+      "alertIcon": {
+        "value": {
+          "fontFamily": "Font Awesome 6 Pro",
+          "fontWeight": "Solid",
+          "fontSize": "12"
+        },
+        "type": "typography"
       }
     },
     "alerts": {
