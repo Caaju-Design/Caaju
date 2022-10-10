@@ -15,6 +15,10 @@
         "main": {
           "value": "#23216B",
           "type": "color"
+        },
+        "focusLight": {
+          "value": "#23216B33",
+          "type": "color"
         }
       },
       "secondary": {
@@ -225,6 +229,15 @@
           "fontWeight": "Regular",
           "fontSize": "16",
           "lineHeight": "0"
+        },
+        "type": "typography"
+      },
+      "helperText": {
+        "value": {
+          "textDecoration": "",
+          "fontFamily": "Sora",
+          "fontWeight": "Regular",
+          "fontSize": "11"
         },
         "type": "typography"
       }
