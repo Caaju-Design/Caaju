@@ -17,7 +17,7 @@
           "type": "color"
         },
         "focusLight": {
-          "value": "#23216B33",
+          "value": "{brandColor.principal.main}33",
           "type": "color"
         }
       },
@@ -27,7 +27,7 @@
           "type": "color"
         },
         "focusLight": {
-          "value": "rgba(215, 75, 123, 0.2)",
+          "value": "{brandColor.secondary.main}33",
           "type": "color"
         }
       },
@@ -37,7 +37,7 @@
           "type": "color"
         },
         "focusLight": {
-          "value": "rgba(73, 202, 245, 0.2)",
+          "value": "{brandColor.tertiary.main}33",
           "type": "color"
         }
       }
