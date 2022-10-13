@@ -113,19 +113,19 @@
     "buttomTypography": {
       "label": {
         "value": {
-          "fontFamily": "Sora",
-          "fontWeight": "Regular",
-          "lineHeight": "0",
-          "fontSize": "16"
+          "fontFamily": "{fontFamily.main}",
+          "fontWeight": "{fontWeight.regular}",
+          "lineHeight": "",
+          "fontSize": "{fontSize.sm}"
         },
         "type": "typography"
       },
       "icon": {
         "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Solid",
-          "lineHeight": "0",
-          "fontSize": "14"
+          "fontFamily": "{fontFamily.icon}",
+          "fontWeight": "{fontWeight.solid}",
+          "lineHeight": "",
+          "fontSize": "{fontSize.lg}"
         },
         "type": "typography"
       }
@@ -217,43 +217,43 @@
     "inputTypography": {
       "label": {
         "value": {
-          "fontFamily": "Sora",
-          "fontWeight": "Regular",
-          "fontSize": "14"
+          "fontFamily": "{fontFamily.main}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xs}"
         },
         "type": "typography"
       },
       "placeholder": {
         "value": {
-          "fontFamily": "Sora",
-          "fontWeight": "Regular",
-          "fontSize": "16",
-          "lineHeight": "0"
+          "fontFamily": "{fontFamily.main}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.sm}",
+          "lineHeight": ""
         },
         "type": "typography"
       },
       "helperText": {
         "value": {
           "textDecoration": "",
-          "fontFamily": "Sora",
-          "fontWeight": "Regular",
-          "fontSize": "11"
+          "fontFamily": "{fontFamily.main}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.min}"
         },
         "type": "typography"
       },
       "alert": {
         "value": {
-          "fontFamily": "Sora",
-          "fontWeight": "Regular",
-          "fontSize": "12"
+          "fontFamily": "{fontFamily.main}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xxs}"
         },
         "type": "typography"
       },
       "alertIcon": {
         "value": {
-          "fontFamily": "Font Awesome 6 Pro",
-          "fontWeight": "Solid",
-          "fontSize": "12"
+          "fontFamily": "{fontFamily.icon}",
+          "fontWeight": "{fontWeight.solid}",
+          "fontSize": "{fontSize.xxs}"
         },
         "type": "typography"
       }
@@ -334,6 +334,26 @@
       "lg": {
         "value": "3",
         "type": "borderWidth"
+      }
+    },
+    "fontFamily": {
+      "main": {
+        "value": "Sora",
+        "type": "fontFamilies"
+      },
+      "icon": {
+        "value": "Font Awesome 6 Pro",
+        "type": "fontFamilies"
+      }
+    },
+    "fontWeight": {
+      "regular": {
+        "value": "Regular",
+        "type": "fontWeights"
+      },
+      "solid": {
+        "value": "Solid",
+        "type": "fontWeights"
       }
     }
   },
